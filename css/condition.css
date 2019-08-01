@@ -1,0 +1,17 @@
+.kaitou{
+    width: 85%;
+padding: 50px 0 20px 0;
+ 
+   border-bottom: 1px solid #ccc; 
+    height: 50px;
+    line-height: 50px;
+
+}
+#用 key 管理可复用的元素 a{
+color:black;
+}
+.qiehuan{
+    width: 80%;
+    padding: 30px 30px 30px 40px;
+    border: 1px solid #ccc;
+}

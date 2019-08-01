@@ -1,0 +1,406 @@
+.select {
+  width: 100%;
+  height: 100%;
+
+}
+.select-one {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+.select-one-1 {
+  width: 100%;
+  background: #fff;
+  margin: 5px auto;
+  
+}
+.select-one-1-1 {
+  width: 96%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  
+}
+.select-one-2 span {
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+.select-one-2 {
+  padding: 15px;
+}
+.select-one-2-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.select-one-2-1-left {
+  width: 50%;
+}
+.select-one-2-1-left-1 {
+  margin-bottom: 15px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.select-one-2-1-left-1-1 {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.select-one-2-1-left-1-1-1 {
+  width: 96%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+}
+.select-one-2-1-left-1-2 {
+  position: relative;
+  padding: 10px 15px;
+}
+.select-one-2-1-left-1-2-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  width: 20%;
+  color: #fff;
+  background: green;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 2px;
+  cursor: pointer;
+
+}
+
+.select-one-2-1-left-1-2-1-1 {
+  background: #fff;
+  color: black;
+
+}
+.select-one-2-1-left-1-2-1-3 {
+  background: rgb(140, 165, 233);
+
+}
+.select-one-2-1-left-1-2-1-4 {
+  background: rgb(146, 240, 24);
+}
+.select-one-2-1-left-1-2-1-5 {
+  background: orange;
+}
+.select-one-2-1-left-1-2-1-6 {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.select-one-2-1-left-1-3 {
+  padding: 10px;
+}
+
+.select-one-2-1-left-2 {
+  margin-bottom: 15px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.select-one-2-1-left-2-1 {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.select-one-2-1-left-2-1-1 {
+  width: 96%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+}
+.select-one-2-1-left-2-2 {
+  position: relative;
+  padding: 10px 15px;
+}
+.select-one-2-1-left-2-2-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.select-one-2-1-left-2-2-1-1 {
+  width: 25%;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  background: #fff;
+  font-size: 16px;
+}
+.select-one-2-1-left-2-2-1-2 {
+  width: 20%;
+  height: 40px;
+  line-height: 40px;
+  color: black;
+  background: #fff;
+  font-size: 14px;
+}
+
+.select-one-2-1-left-2-2-1-3 {
+  width: 15%;
+  height: 35px;
+  line-height: 35px;
+  color: black;
+  background: #fff;
+  font-size: 12px;
+}
+.select-one-2-1-left-2-2-1-4 {
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  color: black;
+  background: #fff;
+  font-size: 10px;
+}
+.select-one-2-1-left-2-2-1-5{
+    width: 25%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    
+   
+}
+.select-one-2-1-left-2-2-1-6{
+    width:20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+ 
+}
+.select-one-2-1-left-2-2-1-7{
+    width: 15%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+   
+}
+.select-one-2-1-left-2-2-1-8{
+  width: 13%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+ 
+}
+.select-one-2-1-left-2-2-1-9{
+    width: 25%;
+    height: 45px;
+    line-height: 45px;
+    background: rgb(140, 165, 233);
+    font-size: 16px;
+}
+.select-one-2-1-left-2-2-1-10{
+    width:20%;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(140, 165, 233);
+    font-size: 14px;
+}
+.select-one-2-1-left-2-2-1-11{
+    width: 15%;
+    height: 35px;
+    line-height: 35px;
+    background: rgb(140, 165, 233);
+    font-size: 12px;
+}
+.select-one-2-1-left-2-2-1-12{
+    width: 13%;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(140, 165, 233);
+    font-size: 10px;
+}
+
+.select-one-2-1-left-2-3{
+  background: #fff;
+  width: 100%;
+}
+.select-one-2-1-left-2-3-1-1{
+
+  background: #fff;
+  padding: 15px;
+}
+.select-one-2-1-left-2-3-1-1-1{
+  width: 14%;
+}
+.select-one-2-1-left-2-3-1-1-2{
+  width: 14%;
+  background: rgb(255, 117, 4);
+}
+
+.select-one-2-1-left-2-3-1-1-3{
+  width: 9%;
+  height: 40px;
+  line-height: 40px;
+ background: #fff;
+ color: black;
+}
+.select-one-2-1-left-2-3-1-1-4{
+  width: 6%;
+  height: 30px;
+  line-height: 30px;
+}
+
+.select-one-2-1-left-2-3-1-1-5{
+  width: 6%;
+  background: rgb(140, 165, 233);
+  height: 30px;
+  line-height: 30px;
+}
+
+
+
+
+
+.select-right-1{
+  width: 96%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+}
+
+
+.select-b{
+  width: 100%;
+  height: auto;
+}
+.select-right-1-one-1{
+  padding: 0 15px;
+  border-bottom: 1px solid #ccc;
+ 
+}
+.select-right-2{
+width: 100%;
+}
+.select-right-2-one{
+background: #fff;
+padding: 10px;
+}
+
+.select-right-2-one-1{
+  background: #fff;
+  color: black;
+  border-radius:20px 20px 20px 20px;
+}
+
+.select-right-2-one-2{
+ 
+  border-radius:20px 20px 20px 20px;
+}
+
+.select-right-2-one-3{
+  background: rgb(140, 165, 233);
+  border-radius:20px 20px 20px 20px;
+}
+
+.select-right-2-one-4{
+  background: orange;
+  border-radius:20px 20px 20px 20px;
+}
+.select-right-2-one-5{
+  background: rgb(243, 63, 63);
+  border-radius:20px 20px 20px 20px;
+}
+.select-right-2-one-6{
+  background: #ccc;
+  border-radius:20px 20px 20px 20px;
+  cursor: not-allowed;
+}
+
+.select-b{
+  width: 100%;
+  height: auto;
+}
+.select-right-3{
+  width: 100%;
+  background: #fff;
+ margin-top: 15px;
+  border-bottom:1px solid #ccc; 
+}
+.select-right-3-1{
+  width: 96%;
+  margin: 0 auto; 
+}
+.select-right-4{
+  width: 100%;
+  padding: 15px;
+  background: #fff;
+ 
+}
+.select-right-4-1{
+
+  height: 40px;
+  line-height: 40px;
+}
+.select-right-4-1-1{
+  width: 28%;
+  height: 45px;
+
+  color: black;
+  background: #fff;
+  border-radius:20px 20px 20px 20px;
+}
+.select-right-4-1-1 span{
+  font-size: 15px
+}
+.select-right-4-1-2{
+  width: 23%;
+  height: 40px;
+  line-height: 40px;
+}
+.select-right-4-1-2 span{
+  font-size: 10px
+}
+.select-right-4-1-3{
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  background: rgb(87, 87, 248);
+}
+.select-right-4-1-3 span{
+  font-size: 7px
+}
+
+.select-right-4-1-4{
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  background: #ccc;
+  cursor: not-allowed;
+}
+.select-right-4-1-4 span{
+  font-size:5px;
+}
+
+.select-right-5-2-1-1{
+  width: 10%;
+
+}
+.select-right-5-2-1-2{
+  width:11%;
+  color: black;
+  background: #fff
+}
+.select-right-5-2-1-2 span{
+  font-size: 1px;
+}
+.select-right-6{
+  width: 100%;
+  height: auto;
+  background: #fff;
+
+}
+.select-right-6{
+  padding: 15px;
+}
+.select-right-6-1-1{
+  width: 100%;
+}

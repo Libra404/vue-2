@@ -1,0 +1,41 @@
+.select{
+    width: 100%;
+}
+.select-one{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.select-one-1{
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    border-top:1px solid rgb(223, 220, 220); 
+    background: #fff;
+}
+.select-one-1-1{
+    width: 94%;
+    margin: 0 auto;
+   
+}
+.select-tow{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+
+}
+.select-tow-1{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.select-tow-1-1{
+    width: 16%;
+    height: 267px;
+    background: #fff;
+    margin:5px  auto;
+
+}

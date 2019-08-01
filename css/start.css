@@ -1,0 +1,307 @@
+b,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: #273849;
+}
+
+#main {
+  padding: 0 10px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#fix-left.left {
+  position: fixed;
+}
+.herder-1-0{
+  z-index: 10;
+}
+.left {
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  padding: 0 20px;
+  overflow-y: scroll;
+  width: 300px;
+  height: 550px;
+  position: fixed;
+ 
+}
+
+.left .left-inner {
+  width: 260px;
+  padding: 30px 0 60px 0px;
+}
+.left .main-menu {
+  margin-bottom: 20px;
+  display: none;
+  padding-left: 0;
+}
+#left-sponsors-special {
+  margin-top: -10px;
+}
+.main-sponsor {
+  color: #4f5959;
+  font-size: 0.85em;
+}
+.main-sponsor .logo:last-child {
+  margin-bottom: 20px;
+}
+.main-sponsor .logo:first-child {
+  margin-top: 15px;
+}
+.main-sponsor .logo {
+  color: #4f5959;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+.main-sponsor img,
+.main-sponsor a {
+  width: 200px;
+}
+.version-select {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.left .menu-root {
+  padding-left: 0;
+}
+.left ul {
+  list-style-type: none;
+  margin: 0;
+  line-height: 1.5em;
+}
+#left-sponsors-special h2 {
+  padding: 5px 0 20px 0;
+}
+.left li {
+  margin-top: 0.5em;
+  padding: 0 5px 0 0;
+}
+.left-link.current {
+  color: #42b983;
+  font-weight: 600;
+}
+.section-link.active {
+  color: #42b983;
+  font-weight: 500;
+  display: inline;
+}
+.left-link:hover {
+  border-bottom: 2px solid #42b983;
+}
+.left ul {
+  margin: 0;
+  line-height: 1.5em;
+  padding-left: 1em;
+}
+.menu-sub a {
+  color: #304455;
+}
+
+.right {
+  width: 100%;
+
+  margin-left: 320px;
+  bottom: 0;
+
+  padding: 60px 90px 0 70px;
+
+  height: 555px;
+}
+.right-1 {
+  padding: 2.2em 0;
+}
+
+
+.ad-one {
+  background: #f8f8f8;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+
+}
+.ad-one span {
+  margin-right: 15px;
+  color: #666;
+}
+.ad-one .name {
+  color: #1c90f3;
+  font-size: 1.1em;
+}
+.ad-one .shopping {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+.ad-one .see {
+  border: 1px solid #888;
+  padding: 2px 6px;
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+.advertisement {
+  border: 1px solid #888;
+  padding: 2px;
+  font-size: 3px;
+  color: #ccc;
+}
+.right h2 {
+  margin: 40px 0 0 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+  width: 80%;
+}
+.right a {
+  color: #42b983;
+  font-weight: 600;
+}
+.right h2 a {
+  color: #273849;
+}
+.right p {
+  line-height: 1.5em;
+  padding: 0 0 1em 1em;
+  margin-top: 1em;
+  width: 85%;
+}
+.right .one {
+  padding: 12px;
+  background: #f8f8f8;
+  border-left: 2px solid red;
+}
+.icon-gantanhao {
+  margin-left: -21px;
+}
+.right .tow {
+  line-height: 3em;
+}
+.tow .button {
+  padding: 1em 5em;
+  border-radius: 2em;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #4fc08d;
+  border: 1px solid #4fc08d;
+}
+.tow span{
+  font-size: 0.9em;
+  margin-left:20px;
+ 
+  display: block;
+}
+.canar {
+  color: #d63200;
+  background: #f8f8f8;
+  padding: 2px 6px;
+}
+.right .hljs {
+  background: #f8f8f8;
+  color: #707070;
+  padding: 1.2em 1em;
+<<<<<<< HEAD
+  line-height: 1.3em;
+=======
+  line-height:1.8em;
+>>>>>>> vue-2
+}
+.hljs-1 {
+  color: #2973b7;
+}
+.hljs-2 {
+  color: #42b983;
+}
+.hljs-3 {
+  color: #525252;
+}
+.hljs-4 {
+  color: #d63200;
+}
+
+.hljs-5 {
+  color: #a32eff;
+}
+.hljs-6 {
+  color: #707070;
+}
+.scrimba {
+  padding: 1em 1.25em;
+  margin-top: 20px;
+  background: #e7ecf3;
+  margin-left: 20px;
+  width: 73%;
+}
+.scrimba .icon-weibiaoti-- {
+  color: #1c90f3;
+  font-size: 30px;
+}
+.wz {
+  width: 85%;
+  padding: 10px 20px;
+  margin-top: 1em;
+  line-height: 2em;
+  border: 1px solid #eee;
+  user-select: none;
+}
+#wz{
+  width: 85%;
+  padding: 10px 20px;
+  margin-top: 1em;
+  line-height: 2em;
+  border: 1px solid #eee;
+  user-select: none;
+}
+#wz input{
+
+}
+.wz ol {
+  margin-left: 40px;
+}
+.ol-tow {
+  padding: 20px;
+  width: 80%;
+}
+
+ .right .hljs-on {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  display: inline-block;
+  width: 600px;
+}
+.wz p {
+  padding: 2px;
+}
+p img {
+  width: 100%;
+}
+.nn {
+  user-select: none;
+  color: #42b983;
+}
+.footer {
+  display: flex;
+<<<<<<< HEAD
+  justify-content: space-between;
+=======
+  justify-content: space-around;
+  padding-top: 30px;
+
+>>>>>>> vue-2
+}
+.footer-1 {
+  border-top: 1px solid #e5e5e5;
+ padding: 20px 0 40px 20px;
+  margin-top: 2em;
+  color: #4f5959;
+  width: 85%;
+ 
+}
+

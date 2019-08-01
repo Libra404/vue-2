@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .herder {
+    width: 100%;
+    border-bottom:1px solid #ccc; 
+    position: fixed;
+    background: #fff;
+<<<<<<< HEAD
+=======
+
+>>>>>>> vue-2
+  }
+  .herder-1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0 5px;
+    z-index: 9;
+<<<<<<< HEAD
+  }
+  
+  .herder-1-0-1 {
+    margin: 0 auto;
+=======
+    line-height: 10px;
+   
+  }
+ 
+  .herder-1-0-1 {
+    margin: 0 auto;
+    width: 100%;
+>>>>>>> vue-2
+  }
+  .herder-1-0-1 a {
+    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> vue-2
+  }
+  .herder-1-0-1 img{
+     width: 40px;
+     vertical-align: middle;
+<<<<<<< HEAD
+=======
+
+>>>>>>> vue-2
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: 40px;
+<<<<<<< HEAD
+    line-height: 40px;
+=======
+
+>>>>>>> vue-2
+  }
+  .nav-input{
+    padding:5px 0px;
+  }
+  .nav li {
+    padding:15px;
+    display: inline-block;
+  }
+  /* 下拉框 */
+  .nav-1 a:first-child{
+    border-bottom: 2px solid #42b983;
+  }
+  .nav-1:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+ 
+  }
+  .nav-1:hover .nav-dropdown a{
+    border: none;
+<<<<<<< HEAD
+=======
+    z-index: 2;
+>>>>>>> vue-2
+  }
+  .nav-2:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-3:hover a{
+    border-bottom:2px solid  #42b983;
+  }
+  .nav-4:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-5:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-6:hover a{
+    border-bottom:2px solid  #42b983;
+  }
+  .nav input {
+    border-radius: 20px 20px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  /* 下拉框属性 */
+  .nav-dropdown {
+    display: none;
+    box-sizing: border-box;
+    max-height: calc(100vh - 61px);
+    overflow-y: auto;
+    position: absolute;
+    margin-left: -100px;
+    top: 50px;
+    width: 120px;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-bottom-color: #ccc;
+    text-align: left;
+    border-radius: 4px;
+    white-space: nowrap;
+<<<<<<< HEAD
+    
+=======
+    z-index: 10;
+ 
+>>>>>>> vue-2
+  }
+  .nav-dropdown ul {
+    width: 100%;
+    border-bottom: 1px solid #ccc
+  }
+  .nav-dropdown li {
+    line-height: 1.8em;
+    margin: 0;
+    display: block;
+    padding: 0 5px;
+    width: 80px;
+ z-index: 10;
+  }
+  
+  .nav-dropdown li a {
+    font-size: 12px;
+       z-index: 1;
+  }
+  .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-left: 6px;
+    margin-right: -14px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #4f5959;
+  }
+
+<<<<<<< HEAD
+
+=======
+.hide{
+  display: none;
+}
+>>>>>>> vue-2
+i .icon-gantanhao{
+width: 20px;
+}
+.ad {
+  padding: 90px 0 20px 70px;
+  position: fixed;
+  z-index: 1;
+  left: calc(100% - 240px);
+ top: 240px;
+float: right;
+}
+.ad span {
+  float: right;
+  padding: 0 0 5px 0;
+  font-size: 13px;
+  color: #ccc;
+}
+.ad img {
+  width: 150px;
+}
+<<<<<<< HEAD
+  
+
+ @media screen and (max-width:900px){
+  .ad {
+  
+ margin-top:30px; 
+=======
+.right .hljs-on-1 {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.bb {
+  width: 80%;
+  font-size: 1em;
+  margin: 25px;
+  padding: 0 20px;
+  border-left: 4px solid #42b983;
+}
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+  .ad {
+
+     margin-top:90px; 
+>>>>>>> vue-2
+    z-index: 1;
+    left: calc(100% - 240px);
+     float: right;
+    position: absolute !important;
+    top: 0 ;
+<<<<<<< HEAD
+=======
+    padding: 0px 0 20px 70px;
+>>>>>>> vue-2
+  }
+.ad-one{
+  margin-top:230px; 
+}
+.left{
+<<<<<<< HEAD
+  /* display: none; */
+}
+.right{
+  /* float: left !important;
+  margin-left:0;  */
+}
+.nav{
+  /* display: none; */
+
+}
+.herder-1-0-1 span{
+  /* display: none */
+}
+.herder-1-0-1 img{
+
+}
+ }
+=======
+
+width: 220px;
+}
+.right{
+  width: 60%;
+  bottom: 0;
+  padding: 60px 0px 0 0px;
+  height: 555px;
+  
+}
+.hljs-on-1 {
+width: 60%;
+}
+.nav-dropdown li ul {
+  z-index: 20;
+}
+.nav-dropdown li ul li{
+z-index: 20;
+}
+
+.footer{
+  width: 65% !important;
+}
+.right p{
+  width: 65% !important;
+}
+
+.ad-one {
+  width: 65% !important;
+}
+.right table{
+ width: 65% !important;
+}
+h2{
+  width: 65% !important;
+}
+.footer-1{
+  width: 65% !important;
+}
+.scrimba{
+  width: 65% !important;
+}
+.wz{
+  width: 65%;
+}
+ 
+ol li{
+width: 65%;
+}
+.lunbo img{
+  width: 65%;
+}
+.ad-one span{
+  white-space:nowrap
+}
+}
+ @media screen and (max-width:800px){
+  .right{
+
+    bottom: 0;
+    padding: 60px 0px 0 0px !important;
+    height: 555px;
+    margin: auto;
+    
+  }
+  
+   .left{
+     display: none
+   }
+   .nav{
+     display: none;
+   }
+   .herder-1{
+
+    padding:0 !important;
+   }
+   .herder-1-0-1 img{
+     text-align: center;
+     position: absolute;
+     margin: 0 auto;
+     top:0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+   }
+   .herder-1-0-1 a{
+width: 100%;
+   }
+.herder-1-0-1 span{
+  display: none;
+}
+   
+
+.ad-one span{
+  white-space:nowrap
+}
+.hide{
+  display: block;
+}
+
+   .ad {
+    margin-left:-120px; 
+    margin-top:90px; 
+   z-index: 1;
+   left: calc(100% - 240px);
+    float: right;
+   position: absolute !important;
+   top: 0 ;
+   padding: 0px 0 20px 70px;
+ }
+.ad-one{
+ margin-top:230px; 
+}
+ } 
+>>>>>>> vue-2

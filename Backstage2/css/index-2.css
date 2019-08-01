@@ -1,0 +1,215 @@
+.select {
+  width: 100%;
+  height: 100%;
+
+}
+.select-1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+.select-one {
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  line-height: 40px;
+  border-top:1px solid #ccc; 
+}
+.select-one-1 {
+  width: 96%;
+  margin: 0 auto;
+}
+.select-one-1 a{
+    color: #999;
+}
+.select-tow{
+height: 100%;
+
+ 
+}
+.select-tow-1{
+
+   display: flex;
+   justify-content: space-between;
+}
+.select-tow-left{
+    height: 100%;
+    width: 66.666%;
+    margin-top: 40px
+}
+.select-tow-left-1{
+    width: 90%;
+    padding: 15px;
+ 
+    height: auto;
+
+    margin: 15px auto;
+    background: #fff;
+}
+.select-tow-left-1-1{
+    width: 100%;
+    height: 40px;
+ 
+    line-height: 40px;
+
+}
+.select-tow-left-1-1-2{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 0 auto;
+    border-bottom:1px solid #ccc; 
+    z-index: 1;
+  
+}
+.select-tow-left-1-1-2 a{
+    color: blue;
+  
+}
+.select-tow-left-1-2{
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+ 
+}
+.select-tow-left-1-2-1{
+    width: 33%;
+    background:rgb(236, 234, 234);
+    padding: 24px;
+    margin: 5px auto;
+}
+.select-tow-left-1-2-1-1 a{
+    color: rgb(107, 106, 106);
+    font-size: 20px;
+}
+.select-tow-left-1-2-1-1 a:hover{
+    color: rgb(114, 114, 240);
+}
+.select-tow-left-1-2-1-1-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.select-tow-left-1-2-1-1-2 a{
+   color: rgb(107, 106, 106);
+}
+.select-tow-left-1-2-1-1-2 span{
+    color: #ccc;
+}
+.select-tow-left-3-1 dd{
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+}
+.select-tow-left-3-1-1{
+    border-radius:50%;
+    line-height: 55px;
+    width: 32px;
+    height: 32px;
+    background: green;
+    display: inline-block;
+}
+.select-tow-left-3-1-2{
+    display: inline-block;
+
+}
+.select-tow-left-3-1-2 a{
+    color: rgb(80, 80, 235);
+}
+
+
+
+.select-tow-right{
+    height:auto;
+    width: 33.333%;
+    margin-top: 40px;
+    padding: 24px 24px 0 0 ;
+}
+.select-tow-right-1{
+    width: 100%;
+    background: #fff;
+   
+}
+.select-tow-right-1-1{
+    width: 94%;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 auto;
+    border-bottom:1px solid #ccc; 
+   
+}
+.select-tow-right-1-2{
+    padding-left: 10px;
+    font-size: 0;
+}
+.select-tow-right-1-2 a{
+    width: 25%;
+    display: inline-block;
+    width: 25%;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.select-tow-right-2{
+    width: 100%;
+
+
+}
+.select-tow-right-2-1{
+    padding: 10px;
+    background: #fff;
+    border-bottom:1px solid #ccc; 
+
+    margin-top: 15px;
+}
+.option{
+    width: 100%;
+    height: 332px;;
+
+    background: #fff;
+}
+
+.select-tow-right-3{
+    width: 100%;
+}
+.select-tow-right-3-2{
+    width: 100%;
+   
+    background: #fff;
+ 
+}
+.select-tow-right-3-2-q{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.select-tow-right-3-2-0{
+    width: 50%;
+   padding: 10px;
+ 
+
+   
+}
+.select-tow-right-3-2 a{
+    color: #666;
+   
+}
+.select-tow-right-3-2-1{
+    width: 24px;
+    height: 24px;
+    background: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+.select-tow-right-3-2-2{
+    padding: 10px;
+}

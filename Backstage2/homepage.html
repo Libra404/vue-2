@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>空间</title>
+    <link rel="stylesheet" href="css/public.css">
+
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/2.css">
+    <link rel="stylesheet" href="css/3.css">
+    <link rel="stylesheet" href="css/5.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="js/public.js">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="https://echarts.baidu.com/dist/echarts.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="header-left">
+            <li>
+                <a href="javascript:;" title="侧边伸缩">
+                    <i class="iconfont icon-shensuoyou "></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" title="前台">
+                    <i class="iconfont icon-wangluo"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" title="刷新">
+                    <i class="iconfont icon-refresh"></i>
+                </a>
+            </li>
+            <li>
+                <input type="text" placeholder="搜索..." />
+            </li>
+            <span id="hea-ho1"></span>
+        </ul>
+
+        <ul class="header-right">
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-lingdang"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-peise"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-bianqian"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-quanping"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="">
+                    贤心
+                    <span class="spanSanjiaoX"></span>
+                </a>
+                <dl class="Head-dl">
+                    <dd><a href="javcscript:;">基本资料</a></dd>
+                    <dd><a href="javcscript:;">修改密码</a></dd>
+                    <dd><a href="javcscript:;">退出</a></dd>
+                </dl>
+            </li>
+            <li id="vision">
+                <a href="javascript:;">
+                    <i class="iconfont icon-more1170511easyiconnet"></i>
+                </a>
+            </li>
+            <span id="hea-ho2"></span>
+        </ul>
+    </header>
+    <!-- 侧边导航栏 -->
+    <nav>
+        <div class="nav-box">
+            <div class="Nav-header">
+                <span>layuiAdmin Pro</span>
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul>
+                <!-- 主页 -->
+                <li>
+                    <a href="javascript:;" name="Basics">
+                        <i class="iconfont icon-zhuye3"></i>
+                        <cite>主页</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd><a href="index.html" name="Console">控制台</a></dd>
+                        <dd><a href="index-2.html" name="Home page 1">主页一</a></dd>
+                        <dd><a href="javascript:;" name="Home page 2">主页二</a></dd>
+                    </dl>
+                </li>
+                <!-- 组件 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-component"></i>
+                        <cite>组件</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd>
+                            <a>栅格<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="Proportion.html">等比例列表排列</a></dd>
+                                <dd><a href="javascrpt:;">按移动端排列</a></dd>
+                                <dd><a href="javascrpt:;">移动桌面端组合</a></dd>
+                                <dd><a href="javascrpt:;">全端复杂组合</a></dd>
+                                <dd><a href="javascrpt:;">低于桌面堆叠排列</a></dd>
+                                <dd><a href="javascrpt:;">九宫格</a></dd>
+                            </dl>
+                        </dd>
+                        <dd>
+                            <a href="Button.html">按钮</a>
+                        </dd>
+                        <dd>
+                            <a href="javascript:;">表单
+                                <span class="nav-ssp spanSanjiaoX"></span>
+                            </a>
+                            <dl>
+                                <dd>
+                                    <a href="javascrpt:;">表单元素</a>
+                                </dd>
+                                <dd><a href="javascrpt:;">表单组合</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">导航</a></dd>
+                        <dd><a href="javascript:;">选项卡</a></dd>
+                        <dd><a href="javascript:;">进度条</a></dd>
+                        <dd><a href="javascript:;">面板</a></dd>
+                        <dd><a href="javascript:;">徽章</a></dd>
+                        <dd><a href="time.html">时间线</a></dd>
+                        <dd><a href="javascript:;">动画</a></dd>
+                        <dd><a href="javascript:;">辅助</a></dd>
+                        <dd>
+                            <a href="javascript:;">通用弹层<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascrpt:;">功能演示</a></dd>
+                                <dd><a href="javascrpt:;">特殊示例</a></dd>
+                                <dd><a href="javascrpt:;">风格定制</a></dd>
+                            </dl>
+                        </dd>
+                        <dd>
+                            <a href="javascript:;">日期时间<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascrpt:;">功能演示一</a></dd>
+                                <dd><a href="javascrpt:;">功能演示二</a></dd>
+                                <dd><a href="javascrpt:;">设定主题</a></dd>
+                                <dd><a href="javascrpt:;">特殊示例</a></dd>
+                            </dl>
+                        </dd>
+                        <dd>
+                            <a href="javascript:;">表格<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascrpt:;">简单数据表格</a></dd>
+                                <dd><a href="javascrpt:;">列宽自动分配</a></dd>
+                                <dd><a href="javascrpt:;">赋值已知数据</a></dd>
+                                <dd><a href="javascrpt:;">转化静态表格</a></dd>
+                                <dd><a href="javascrpt:;">开启分页</a></dd>
+                                <dd><a href="javascrpt:;">自定义分页</a></dd>
+                                <dd><a href="javascrpt:;">开启头部工具栏</a></dd>
+                                <dd><a href="javascrpt:;">开启合计行</a></dd>
+                                <dd><a href="javascrpt:;">高度最大适应</a></dd>
+                                <dd><a href="javascrpt:;">开启复选框</a></dd>
+                                <dd><a href="javascrpt:;">开启单选框</a></dd>
+                                <dd><a href="javascrpt:;">开启单元格编辑</a></dd>
+                                <dd><a href="javascrpt:;">加入表单元素</a></dd>
+                                <dd><a href="javascrpt:;">设置单元格样式</a></dd>
+                                <dd><a href="javascrpt:;">固定列</a></dd>
+                                <dd><a href="javascrpt:;">数据操作</a></dd>
+                                <dd><a href="javascrpt:;">解析任意数据格式</a></dd>
+                                <dd><a href="javascrpt:;">监听行事件</a></dd>
+                                <dd><a href="javascrpt:;">数据表格的重载</a></dd>
+                                <dd><a href="javascrpt:;">设置初始排序</a></dd>
+                                <dd><a href="javascrpt:;">监听单元格事件</a></dd>
+                                <dd><a href="javascrpt:;">复杂表头</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">分页<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">功能演示一</a></dd>
+                                <dd><a href="javascript:;">功能演示二</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">上传<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">功能演示一</a></dd>
+                                <dd><a href="javascript:;">功能演示二</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">颜色选择器</a></dd>
+                        <dd><a href="javascript:;">滑块组件</a></dd>
+                        <dd><a href="javascript:;">评分</a></dd>
+                        <dd><a href="javascript:;">轮播</a></dd>
+                        <dd><a href="javascript:;">流加载</a></dd>
+                        <dd><a href="javascript:;">工具</a></dd>
+                        <dd><a href="javascript:;">代码修饰</a></dd>
+                        <dd><a href="javascript:;">即时聊天</a></dd>
+                    </dl>
+                </li>
+                <!-- 页面 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-template"></i>
+                        <cite>页面</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd><a href="homepage.html">个人主页</a></dd>
+                        <dd><a href="communication.html">通讯录</a></dd>
+                        <dd><a href="list.html">客户列表</a></dd>
+                        <dd><a href="javascript:;">商品列表</a></dd>
+                        <dd><a href="javascript:;">留言板</a></dd>
+                        <dd><a href="javascript:;">搜索结果</a></dd>
+                        <dd><a href="javascript:;">注册</a></dd>
+                        <dd><a href="javascript:;">登入</a></dd>
+                        <dd><a href="javascript:;">忘记密码</a></dd>
+                        <dd><a href="javascript:;">404</a></dd>
+                        <dd><a href="javascript:;">错误提示</a></dd>
+                        <dd>
+                            <a href="javascript:;">内嵌页面<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">百度一下</a></dd>
+                                <dd><a href="javascript:;">layui官网</a></dd>
+                                <dd><a href="javascript:;">layuiAdmin官网</a></dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </li>
+                <!-- 应用 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-app"></i>
+                        <cite>应用</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd>
+                            <a href="javascript:;">内容系统
+                                <span class="nav-ssp spanSanjiaoX"></span>
+                            </a>
+                            <dl>
+                                <dd><a href="javascript:;">文章列表</a></dd>
+                                <dd><a href="javascript:;">分类管理</a></dd>
+                                <dd><a href="javascript:;">评论管理</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">社区系统<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">帖子列表</a></dd>
+                                <dd><a href="javascript:;">回帖列表</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">消息中心</a></dd>
+                        <dd><a href="javascript:;">工单系统</a></dd>
+                    </dl>
+                </li>
+                <!-- 高级 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-seniorgaoji"></i>
+                        <cite>高级</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd><a href="javascript:;">通讯系统</a></dd>
+                        <dd><a href="javascript:;">Echarts集成<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">折线图</a></dd>
+                                <dd><a href="javascript:;">柱状图</a></dd>
+                                <dd><a href="javascript:;">地图</a></dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </li>
+                <!-- 用户 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-yonghu"></i>
+                        <cite>用户</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd><a href="javascript:;">网站用户</a></dd>
+                        <dd><a href="javascript:;">后台管理员</a></dd>
+                        <dd><a href="javascript:;">角色管理</a></dd>
+                    </dl>
+                </li>
+                <!-- 设置 -->
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-shezhi"></i>
+                        <cite>设置</cite>
+                        <span class="nav-ssp spanSanjiaoX"></span>
+                    </a>
+                    <dl>
+                        <dd><a href="javascript:;">系统设置<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">网站设置</a></dd>
+                                <dd><a href="javascript:;">邮件服务</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="javascript:;">我的设置<span class="nav-ssp spanSanjiaoX"></span></a>
+                            <dl>
+                                <dd><a href="javascript:;">我的资料</a></dd>
+                                <dd><a href="javascript:;">我的密码</a></dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </li>
+                <span id="nav-ho"></span>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <script src="js/public.js"></script>
+        <div class="select">
+            <div class="select-one">
+                <div class="select-one-1">
+                    <div class="select-one-1-1">
+                        <a href="index.html">主页</a>
+                        <span>/</span>
+                        <a href="">
+                            <cite>页面</cite>
+                            <span>/</span>
+                        </a>
+                        <a href="">
+                            <cite>个人空间</cite>
+                        </a>
+                    </div>
+                    <div class=""></div>
+                </div> 
+            </div>
+
+        </div>
+    </main>
+    <script>
+        var a = ""
+        $('.select-tow-left-one-1-1-2 a').mousemove(function () {
+            $(this).css({
+                background: "green"
+            })
+        }).mouseout(function () {
+            $(this).css({
+                background: a
+            })
+        })
+        $('select-tow-left-one-1-1-2 a').mousemove(function () {
+            $('.select-tow-left-one-1-1-2 i').css({
+                background: "#fff"
+            })
+        }).mouseout(function () {
+            $('.select-tow-left-one-1-1-2 i').css({
+                background: a
+            })
+        })
+    </script>
+</body>
+
+</html>

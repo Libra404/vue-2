@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.herder {
+  width: 100%;
+}
+.herder-1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.herder-1-0-1 {
+  margin: 0 auto;
+}
+.herder-1-0-1 a {
+  font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.nav li {
+  padding: 10px;
+}
+/* 下拉框 */
+.nav-1:hover .nav-dropdown {
+  display: block;
+  z-index: 1;
+}
+.nav-2:hover .nav-dropdown {
+  display: block;
+  z-index: 1;
+}
+.nav-4:hover .nav-dropdown {
+  display: block;
+  z-index: 1;
+}
+.nav-5:hover .nav-dropdown {
+  display: block;
+  z-index: 1;
+}
+.nav input {
+  border-radius: 20px 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+/* 下拉框属性 */
+.nav-dropdown {
+  display: none;
+  box-sizing: border-box;
+  max-height: calc(100vh - 61px);
+  overflow-y: auto;
+  position: absolute;
+  margin-left: -100px;
+  top: 50px;
+  width: 120px;
+  background-color: #fff;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-bottom-color: #ccc;
+  text-align: left;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.nav-dropdown ul {
+  width: 100%;
+  border-bottom: 1px solid #ccc
+}
+.nav-dropdown li {
+  line-height: 1.8em;
+  margin: 0;
+  display: block;
+  padding: 0 5px;
+  width: 80px;
+}
+
+.nav-dropdown li a {
+  font-size: 12px;
+}
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-left: 6px;
+  margin-right: -14px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #4f5959;
+}
+
+#hero {
+  padding: 40px 40px 30px;
+  background-color: #fff;
+}
+#hero .inner {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+#hero .left {
+  width: 39%;
+}
+
+#hero .left,
+#hero .right {
+  display: inline-block;
+  vertical-align: top;
+}
+#hero .hero-logo {
+  width: 215px;
+  height: 215px;
+  float: right;
+  margin-right: 60px;
+}
+#hero h1 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 3.2em;
+}
+p {
+  word-spacing: 0.05em;
+  padding: 2em 0;
+}
+
+#hero .button:not(:last-child) {
+  margin-right: 1%;
+}
+
+#hero .button {
+  margin: 1em 0;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  min-width: 8em;
+  text-align: center;
+}
+
+a.button.has-icon,
+input.button.has-icon {
+  position: relative;
+  text-indent: 1.4em;
+}
+
+a.button,
+input.button {
+  padding: 0.75em 2em;
+  border-radius: 2em;
+
+  color: #fff;
+  background-color: #4fc08d;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #4fc08d;
+}
+.button .icon-weibiaoti-- {
+  position: absolute;
+  left: 0;
+
+  font-size: 25px;
+}
+
+a.button.white,
+input.button.white {
+  background-color: #fff;
+  color: #42b983;
+}
+a.button.gray {
+  background-color: #f6f6f6;
+  color: #4f5959;
+  border-color: #f6f6f6;
+}
+a.button.has-icon .icon-adbddb {
+  position: absolute;
+  left: 0.4em;
+  top: 0.4em;
+  width: 2em;
+  font-size: 20px;
+}
+#special-sponsor {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#special-sponsor a {
+  display: inline-block;
+  vertical-align: middle;
+  /* 属性设置元素的垂直对齐方式 */
+  /* middle把此元素放置在父元素的中部。 */
+}
+#special-sponsor img {
+  width: 200px;
+  margin: 15px;
+}
+.become-backer {
+  border: 1px solid #42b983;
+  width: 125px;
+  border-radius: 20px 20px;
+  padding: 4px 0;
+  margin: 20px 0;
+  color: #42b983;
+  font-size: 12px;
+}
+#highlights {
+  padding-bottom: 70px;
+}
+#highlights .inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+#highlights .point {
+  width: 33.333%;
+  padding: 0 2em;
+
+  box-shadow: border-box;
+}
+#highlights .point h2 {
+  color: #42b983;
+  font-weight: 400;
+  margin: 0;
+  padding: 0.5em 0;
+}
+#highlights .point p {
+  color: #4f5959;
+}
+#sponsors {
+  text-align: center;
+  padding: 35px 40px 45px;
+  background-color: #f6f6f6;
+}
+#sponsors .inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#sponsors h3 {
+  color: #999;
+  margin: 0 0 10px;
+}
+#sponsors a,
+#sponsors img {
+  vertical-align: middle;
+}
+#sponsors a {
+  margin: 20px 15px 0;
+  position: relative;
+  display: inline-block;
+}
+.become-sponsor {
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.open-collective-sponsors {
+  margin-top: 60px;
+}
+.open-collective-sponsors h4 {
+  color: #999;
+  bottom: 0;
+  padding: 20px;
+}
+#sponsors .open-collective-sponsors a,
+#sponsors .open-collective-sponsors img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.news{
+  text-align: center;
+  padding: 40px 0 70px;
+  background: #fff;
+}
+.newsletter-form{
+  position: relative;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.newsletter-input{
+  width: 100%;
+  border-radius:50px; 
+  padding: 10px 0 10px 20px;
+  box-sizing: border-box;
+  height: 50px;
+  outline: none;
+}
+.newsletter-button{
+  position: absolute;
+  padding: 0 20px;
+  margin: 0;
+  right: 4px;
+  top:3px;
+
+}
+.news .button{
+
+font-size: 1.05em;
+font-weight: 600;
+letter-spacing: 0.1em;
+min-width: 8em;
+text-align: center;
+width: 20%;
+}
+.ineer p a{
+color: #4fc08d;
+
+}

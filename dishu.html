@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地鼠</title>
+    <link rel="stylesheet" href="css/dishu.css">
+    <link rel="stylesheet" href="js/dishu.js">
+
+</head>
+
+<body>
+    <div class="area"></div>
+    <div class="second">
+        剩余时间：<span>10</span>秒
+    </div>
+    <div class="score">
+        得分：<span>0</span>分
+    </div>
+    <button class="ks">开始</button>
+    <button class="tz">停止</button>
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        var hole = "<div class='hole'><img src='./img/2.jpg' alt='' /></div>" //创建16个名叫hole 的div
+        var holenum = 16; //循环次数
+        for (var i = 0; i < holenum; i++) {
+            for (var i = 0; i < holenum; i++) {
+                $(".area").append(hole); //将创建好的hole放到area这个div里
+            }
+        }
+
+        function range(m, n) { //需要传入两个参数:m和n，分别代表起始和结束
+            var arr = []; //创建空数组
+
+            for (var j = m; j <= n; j++) { //将每一个数字通过push()这个函数 
+                arr.push(j); //压入空数组
+            }
+            return arr;
+        }
+
+        var time = setInterval(function () { //定时器
+            var num = Math.ceil(Math.random() * 3); //random()函数生成的0-1乘以3   ceil()函数对0-4进行向上取整
+            var arr2 = range(0, 15); //0 到15 编号
+            for (var i = 0; i < num; i++) { //for()循环的次数为每次小黄人随机出现的个数了。
+                var randNum = Math.floor(Math.random() * arr2.length); //floor()函数表示向下取整 
+ 
+                var mouse = $('img').eq(arr2.splice(randNum, 1)); // 2 splice()函数用于将randNum数组中的一个数字进行剔除并返回该值   eq()用于获取该编号  $('img').eq()用于找到对应的这张图片
+
+//  这两行代码的意思是：生成0-15范围内的一个整数（即为此次随机出现的小黄人），并且将每次出现的小黄人的编号从数组中返回（接下来使用）并且删除（确保不会两次连续出现）。
+
+                if (mouse.is(":hidden")) {
+                    mouse.fadeIn(100, function () { //，则利用fadeIn()函数使其出现
+                        $(this).delay(1000).fadeOut()//$(this).delay(1000).fadeOut()使其在1秒钟后自动消失。
+                    })
+                }
+            }
+        }, 1000)
+        var second = 10;  
+        var time2 = setInterval(function () {
+            second -= 1;
+            if (second >= 0) {   //游戏倒计时
+                $(".second span").html(second);
+            } else {//判断游戏停止
+                clearInterval(time);
+
+            }
+
+        }, 1000)
+
+        $('.hole img').click(function () {//点击图片加分
+            $(this).hide(); //点击后消失
+            var score = parseInt($('.score span').html()) + 1;
+            $('.score span').html(score)
+        })
+    </script>
+</body>
+
+</html>
